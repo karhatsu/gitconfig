@@ -1,3 +1,5 @@
+git config --global alias.append "commit --amend -C HEAD"
+git config --global alias.appendall "commit --amend -a -C HEAD"
 git config --global alias.b branch
 git config --global alias.c "commit -m"
 git config --global alias.ca "commit -am"
