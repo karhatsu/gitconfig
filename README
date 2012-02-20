@@ -10,6 +10,7 @@ git config --global alias.f fetch
 git config --global alias.l "log --decorate"
 git config --global alias.m merge
 git config --global alias.s status
+git config --global alias.sh stash
 git config --global alias.p push
 git config --global alias.pu pull
 git config --global alias.com "checkout master"
