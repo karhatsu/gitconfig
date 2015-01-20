@@ -24,6 +24,7 @@ git config --global alias.pu pull
 git config --global alias.com "checkout master"
 git config --global alias.mom "merge origin/master"
 git config --global alias.rom "rebase origin/master"
+git config --global alias.resetom 'reset --hard @{u}'
 
 git config --global color.ui auto
 
