@@ -11,7 +11,7 @@ git config --global alias.ds "diff --staged"
 git config --global alias.f fetch
 git config --global alias.l "log --decorate"
 git config --global alias.lup "log --decorate @{u}^.."
-git config --global alias.ls "log --format=\"%C(green)%h%C(reset) (%C(cyan)%an%C(reset))%C(red reverse)%d%C(reset) %C(yellow)%ad%C(reset) %s\""
+git config --global alias.ls "log --format=\"%C(green)%h%C(reset) (%C(cyan)%an%C(reset))%C(red)%d%C(reset) %C(yellow)%ad%C(reset) %s\""
 git config --global alias.mnew "log --decorate ..origin/master"
 
 git config --global alias.m merge
