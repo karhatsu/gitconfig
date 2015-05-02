@@ -1,3 +1,5 @@
+# Aliases
+
 git config --global alias.append "commit --amend -C HEAD"
 git config --global alias.appendall "commit --amend -a -C HEAD"
 git config --global alias.amend "commit --amend"
@@ -13,7 +15,6 @@ git config --global alias.l "log --decorate"
 git config --global alias.lup "log --decorate @{u}^.."
 git config --global alias.ls "log --format=\"%C(green)%h%C(reset) (%C(cyan)%an%C(reset))%C(red)%d%C(reset) %C(yellow)%ad%C(reset) %s\""
 git config --global alias.mnew "log --decorate ..origin/master"
-
 git config --global alias.m merge
 git config --global alias.s status
 git config --global alias.sa "status -uall"
@@ -25,12 +26,11 @@ git config --global alias.com "checkout master"
 git config --global alias.mom "merge origin/master"
 git config --global alias.rom "rebase origin/master"
 git config --global alias.resetom 'reset --hard @{u}'
-
 git config --global alias.reviewed 'tag -f reviewed'
 
+# Settings
+
 git config --global color.ui auto
-
 git config --global push.default tracking
-
 git config --global user.name "Henri Karhatsu"
 git config --global user.email <email>
