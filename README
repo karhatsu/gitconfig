@@ -29,6 +29,7 @@ git config --global alias.reviewed 'tag -f reviewed'
 # Settings
 
 git config --global color.ui auto
+git config --global core.editor nano
 git config --global push.default tracking
 git config --global user.name "Henri Karhatsu"
 git config --global user.email <email>
