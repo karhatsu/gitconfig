@@ -21,6 +21,7 @@ git config --global alias.sa "status -uall"
 git config --global alias.sb "status -sb"
 git config --global alias.sh stash
 git config --global alias.sw switch
+git config --global alias.swm "switch main"
 git config --global alias.p push
 git config --global alias.pn "push --no-verify"
 git config --global alias.com "checkout master"
