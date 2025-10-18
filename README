@@ -26,7 +26,6 @@ git config --global alias.sw switch
 git config --global alias.swm "switch main"
 git config --global alias.p push
 git config --global alias.pn "push --no-verify"
-git config --global alias.com "checkout master"
 git config --global alias.resetom 'reset --hard @{u}'
 git config --global alias.reviewed 'tag -f reviewed'
 
